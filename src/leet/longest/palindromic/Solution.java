@@ -24,7 +24,7 @@ public class Solution {
         if (s == null || s.length() > 1000 || s.length() < 1) {
             return "";
         }
-        if(s.length() == 1) {
+        if (s.length() == 1) {
             return s;
         }
 
@@ -32,9 +32,9 @@ public class Solution {
         int stepOut = 1; // minimum addition
         for (int i = 0; i < s.length(); i++) {
             for (int j = i + stepOut; j <= s.length(); j++) {
-                String candidate = s.substring(i,j);
+                String candidate = s.substring(i, j);
                 boolean palindrome = isPalindrome(candidate);
-                if(palindrome && candidate.length() > longest.length()) {
+                if (palindrome && candidate.length() > longest.length()) {
                     longest = candidate;
                     stepOut = longest.length() + 1;
                 }
@@ -50,7 +50,7 @@ public class Solution {
             return false;
         }
         for (int i = 0, j = len - 1; i < len; i++, j--) {
-            if (s.charAt(i)!= s.charAt(j)) {
+            if (s.charAt(i) != s.charAt(j)) {
                 return false;
             }
         }
