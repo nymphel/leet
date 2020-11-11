@@ -80,3 +80,186 @@ One way total steps: 53
 [Cell{row=0, col=0}, Cell{row=0, col=1}, Cell{row=1, col=1}, Cell{row=2, col=1}, Cell{row=2, col=0}, Cell{row=3, col=0}, Cell{row=4, col=0}, Cell{row=4, col=1}, Cell{row=5, col=1}, Cell{row=5, col=2}, Cell{row=5, col=3}, Cell{row=5, col=4}, Cell{row=5, col=5}, Cell{row=5, col=6}, Cell{row=4, col=6}, Cell{row=3, col=6}, Cell{row=3, col=5}, Cell{row=2, col=5}, Cell{row=2, col=4}, Cell{row=1, col=4}, Cell{row=0, col=4}, Cell{row=0, col=5}, Cell{row=0, col=6}, Cell{row=0, col=7}, Cell{row=0, col=8}, Cell{row=1, col=8}, Cell{row=1, col=9}, Cell{row=2, col=9}, Cell{row=3, col=9}, Cell{row=3, col=8}, Cell{row=4, col=8}, Cell{row=5, col=8}, Cell{row=6, col=8}, Cell{row=6, col=9}, Cell{row=7, col=9}, Cell{row=8, col=9}, Cell{row=9, col=9}, Cell{row=9, col=8}, Cell{row=9, col=7}, Cell{row=8, col=7}, Cell{row=7, col=7}, Cell{row=7, col=6}, Cell{row=7, col=5}, Cell{row=8, col=5}, Cell{row=9, col=5}, Cell{row=9, col=4}, Cell{row=9, col=3}, Cell{row=8, col=3}, Cell{row=8, col=2}, Cell{row=8, col=1}, Cell{row=8, col=0}, Cell{row=7, col=0}, Cell{row=6, col=0}]
 
 Process finished with exit code 0
+
+---------------------------------------------------------------------------
+
+p  1     1  1  1  1  1  1
+   1        1           1  1
+1  1     1  1  1           1
+1        1     1  1     1  1
+m  1              1     1
+   1  1  1  1  1  1     1
+1                       1  1
+1        1     1  1  1     1
+1  1  1  1     1     1     1
+1        1  1  1     1  1  1
+
+Cell{row=4, col=1}
+Cell{row=5, col=1}
+Cell{row=5, col=2}
+Cell{row=5, col=3}
+Cell{row=5, col=4}
+Cell{row=5, col=5}
+Cell{row=5, col=6}
+Cell{row=4, col=6}
+Cell{row=3, col=6}
+Cell{row=3, col=5}
+Cell{row=2, col=5}
+Cell{row=2, col=4}
+Cell{row=2, col=3}
+Cell{row=3, col=3}
+Dead end found: Cell{row=3, col=3}
+Going back to: Cell{row=2, col=3}
+Dead end found: Cell{row=2, col=3}
+Going back to: Cell{row=2, col=4}
+Cell{row=1, col=4}
+Cell{row=0, col=4}
+Cell{row=0, col=5}
+Cell{row=0, col=6}
+Cell{row=0, col=7}
+Cell{row=0, col=8}
+Cell{row=1, col=8}
+Cell{row=1, col=9}
+Cell{row=2, col=9}
+Cell{row=3, col=9}
+Cell{row=3, col=8}
+Cell{row=4, col=8}
+Cell{row=5, col=8}
+Cell{row=6, col=8}
+Cell{row=6, col=9}
+Cell{row=7, col=9}
+Cell{row=8, col=9}
+Cell{row=9, col=9}
+Cell{row=9, col=8}
+Cell{row=9, col=7}
+Cell{row=8, col=7}
+Cell{row=7, col=7}
+Cell{row=7, col=6}
+Cell{row=7, col=5}
+Cell{row=8, col=5}
+Cell{row=9, col=5}
+Cell{row=9, col=4}
+Cell{row=9, col=3}
+Cell{row=8, col=3}
+Cell{row=8, col=2}
+Cell{row=8, col=1}
+Cell{row=8, col=0}
+Cell{row=9, col=0}
+Dead end found: Cell{row=9, col=0}
+Going back to: Cell{row=8, col=0}
+Cell{row=7, col=0}
+Cell{row=6, col=0}
+Dead end found: Cell{row=6, col=0}
+Going back to: Cell{row=7, col=0}
+Dead end found: Cell{row=7, col=0}
+Going back to: Cell{row=8, col=0}
+Dead end found: Cell{row=8, col=0}
+Going back to: Cell{row=8, col=1}
+Dead end found: Cell{row=8, col=1}
+Going back to: Cell{row=8, col=2}
+Dead end found: Cell{row=8, col=2}
+Going back to: Cell{row=8, col=3}
+Cell{row=7, col=3}
+Dead end found: Cell{row=7, col=3}
+Going back to: Cell{row=8, col=3}
+Dead end found: Cell{row=8, col=3}
+Going back to: Cell{row=9, col=3}
+Dead end found: Cell{row=9, col=3}
+Going back to: Cell{row=9, col=4}
+Dead end found: Cell{row=9, col=4}
+Going back to: Cell{row=9, col=5}
+Dead end found: Cell{row=9, col=5}
+Going back to: Cell{row=8, col=5}
+Dead end found: Cell{row=8, col=5}
+Going back to: Cell{row=7, col=5}
+Dead end found: Cell{row=7, col=5}
+Going back to: Cell{row=7, col=6}
+Dead end found: Cell{row=7, col=6}
+Going back to: Cell{row=7, col=7}
+Dead end found: Cell{row=7, col=7}
+Going back to: Cell{row=8, col=7}
+Dead end found: Cell{row=8, col=7}
+Going back to: Cell{row=9, col=7}
+Dead end found: Cell{row=9, col=7}
+Going back to: Cell{row=9, col=8}
+Dead end found: Cell{row=9, col=8}
+Going back to: Cell{row=9, col=9}
+Dead end found: Cell{row=9, col=9}
+Going back to: Cell{row=8, col=9}
+Dead end found: Cell{row=8, col=9}
+Going back to: Cell{row=7, col=9}
+Dead end found: Cell{row=7, col=9}
+Going back to: Cell{row=6, col=9}
+Dead end found: Cell{row=6, col=9}
+Going back to: Cell{row=6, col=8}
+Dead end found: Cell{row=6, col=8}
+Going back to: Cell{row=5, col=8}
+Dead end found: Cell{row=5, col=8}
+Going back to: Cell{row=4, col=8}
+Dead end found: Cell{row=4, col=8}
+Going back to: Cell{row=3, col=8}
+Dead end found: Cell{row=3, col=8}
+Going back to: Cell{row=3, col=9}
+Dead end found: Cell{row=3, col=9}
+Going back to: Cell{row=2, col=9}
+Dead end found: Cell{row=2, col=9}
+Going back to: Cell{row=1, col=9}
+Dead end found: Cell{row=1, col=9}
+Going back to: Cell{row=1, col=8}
+Dead end found: Cell{row=1, col=8}
+Going back to: Cell{row=0, col=8}
+Dead end found: Cell{row=0, col=8}
+Going back to: Cell{row=0, col=7}
+Dead end found: Cell{row=0, col=7}
+Going back to: Cell{row=0, col=6}
+Dead end found: Cell{row=0, col=6}
+Going back to: Cell{row=0, col=5}
+Dead end found: Cell{row=0, col=5}
+Going back to: Cell{row=0, col=4}
+Cell{row=0, col=3}
+Dead end found: Cell{row=0, col=3}
+Going back to: Cell{row=0, col=4}
+Dead end found: Cell{row=0, col=4}
+Going back to: Cell{row=1, col=4}
+Dead end found: Cell{row=1, col=4}
+Going back to: Cell{row=2, col=4}
+Dead end found: Cell{row=2, col=4}
+Going back to: Cell{row=2, col=5}
+Dead end found: Cell{row=2, col=5}
+Going back to: Cell{row=3, col=5}
+Dead end found: Cell{row=3, col=5}
+Going back to: Cell{row=3, col=6}
+Dead end found: Cell{row=3, col=6}
+Going back to: Cell{row=4, col=6}
+Dead end found: Cell{row=4, col=6}
+Going back to: Cell{row=5, col=6}
+Dead end found: Cell{row=5, col=6}
+Going back to: Cell{row=5, col=5}
+Dead end found: Cell{row=5, col=5}
+Going back to: Cell{row=5, col=4}
+Dead end found: Cell{row=5, col=4}
+Going back to: Cell{row=5, col=3}
+Dead end found: Cell{row=5, col=3}
+Going back to: Cell{row=5, col=2}
+Dead end found: Cell{row=5, col=2}
+Going back to: Cell{row=5, col=1}
+Dead end found: Cell{row=5, col=1}
+Going back to: Cell{row=4, col=1}
+Dead end found: Cell{row=4, col=1}
+Going back to: Cell{row=4, col=0}
+Cell{row=3, col=0}
+Cell{row=2, col=0}
+Cell{row=2, col=1}
+Cell{row=1, col=1}
+Cell{row=0, col=1}
+Cell{row=0, col=0}
+
+
+Princess found in: Cell{row=0, col=0}
+
+Total attempts: 350
+
+One way total steps: 7
+[Cell{row=4, col=0}, Cell{row=3, col=0}, Cell{row=2, col=0}, Cell{row=2, col=1}, Cell{row=1, col=1}, Cell{row=0, col=1}, Cell{row=0, col=0}]
+
+Process finished with exit code 0

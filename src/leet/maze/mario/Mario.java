@@ -6,6 +6,9 @@ import java.util.List;
 public class Mario {
 
     public static void main(String[] args) {
+
+        /*
+        Cell start = new Cell(0,0);
         char[][] maze = {
                 {'m', '1', '0', '1', '1', '1', '1', '1', '1', '0'},
                 {'0', '1', '0', '0', '1', '0', '0', '0', '1', '1'},
@@ -17,17 +20,31 @@ public class Mario {
                 {'1', '0', '0', '1', '0', '1', '1', '1', '0', '1'},
                 {'1', '1', '1', '1', '0', '1', '0', '1', '0', '1'},
                 {'1', '0', '0', '1', '1', '1', '0', '1', '1', '1'}
+        }; */
+
+        Cell start = new Cell(4,0);
+        char[][] maze = {
+                {'p', '1', '0', '1', '1', '1', '1', '1', '1', '0'},
+                {'0', '1', '0', '0', '1', '0', '0', '0', '1', '1'},
+                {'1', '1', '0', '1', '1', '1', '0', '0', '0', '1'},
+                {'1', '0', '0', '1', '0', '1', '1', '0', '1', '1'},
+                {'m', '1', '0', '0', '0', '0', '1', '0', '1', '0'},
+                {'0', '1', '1', '1', '1', '1', '1', '0', '1', '0'},
+                {'1', '0', '0', '0', '0', '0', '0', '0', '1', '1'},
+                {'1', '0', '0', '1', '0', '1', '1', '1', '0', '1'},
+                {'1', '1', '1', '1', '0', '1', '0', '1', '0', '1'},
+                {'1', '0', '0', '1', '1', '1', '0', '1', '1', '1'}
         };
+
 
         printSymbolicMaze(maze);
 
-        Cell start = new Cell(0,0);
 
-        List<Cell> way = findPrincess(maze,start);
+        List<Cell> way = findPrincess(maze, start);
         System.out.println(way);
     }
 
-    public static void printSymbolicMaze(char[][]maze) {
+    public static void printSymbolicMaze(char[][] maze) {
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < maze.length; i++) {
             for (int j = 0; j < maze[0].length; j++) {
@@ -58,7 +75,7 @@ public class Mario {
 
             attempt++;
 
-            if(nextRow < 0 || nextRow >= maze.length
+            if (nextRow < 0 || nextRow >= maze.length
                     || nextCol < 0 || nextCol >= maze[0].length
                     || maze[nextRow][nextCol] == '0'
                     || way.contains(nextP)
@@ -66,14 +83,14 @@ public class Mario {
 
                 directions.remove(direction);
 
-                if(directions.isEmpty()) {
+                if (directions.isEmpty()) {
                     directions = populateDirections();
                     System.out.println("Dead end found: " + position);
                     deadEnd.add(position);
 
                     way.remove(position);
 
-                    if(way.isEmpty()) {
+                    if (way.isEmpty()) {
                         System.out.println("\nNo way to go.. exiting! " + position);
                         break;
                     }
@@ -90,7 +107,7 @@ public class Mario {
             directions = populateDirections();
 
             System.out.println(position);
-            if(maze[nextRow][nextCol] == 'p') {
+            if (maze[nextRow][nextCol] == 'p') {
                 System.out.println("\n\nPrincess found in: " + position);
                 break;
             }
